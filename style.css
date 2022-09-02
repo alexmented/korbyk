@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Pacifico; /* Имя шрифта */
+    src: url(Pacifico.ttf); /* Путь к файлу со шрифтом */
+   }
+
+   @font-face {
+    font-family: Monotxt; /* Имя шрифта */
+    src: url(monotxt_IV50.ttf); /* Путь к файлу со шрифтом */
+   }
+
+
+input {
+    border: 3px solid red;
+    border-radius: 15px;
+    height: 30px;
+    width: 50%;
+    font-size: 20px;
+}
+
+button {
+    width: 25%;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 10px;
+    background: yellow;
+    font-size: 20px;
+    font-family: Pacifico;
+    font-weight: bold;
+}
+#result {
+    font-size: 20px;
+    font-family: Pacifico;
+    margin-top: 10px;
+}
+
+@media (min-width: 760px) {
+    input {
+        width: 95vw;
+        height: 20vh;
+        font-size: 150px;
+    }
+    button {
+        width: 45vw;
+        height: 20vh;
+        font-size: 50px;
+    }
+}
+
